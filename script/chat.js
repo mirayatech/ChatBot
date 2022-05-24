@@ -55,3 +55,22 @@ function getHardResponse(userText) {
 
   document.getElementById("chat-bar-bottom").scrollIntoView(true);
 }
+
+//Gets the text, text from the input box and processes it
+function getResponse() {
+  let userText = $("#textInput").val();
+
+  if (userText == "") {
+    userText = "🙂";
+  }
+
+  let userHtml = '<p class="userText"><span>' + userText + "</span></p>";
+
+  $("#textInput").val("");
+  $("#chatbox").append(userHtml);
+  document.getElementById("chat-bar-bottom").scrollIntoView(true);
+
+  setTimeout(() => {
+    getHardResponse(userText);
+  }, 1000);
+}
