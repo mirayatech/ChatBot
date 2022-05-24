@@ -74,3 +74,17 @@ function getResponse() {
     getHardResponse(userText);
   }, 1000);
 }
+
+// Handles sending text via button clicks
+function buttonSendText(sampleText) {
+  let userHtml = '<p class="userText"><span>' + sampleText + "</span></p>";
+
+  $("#textInput").val("");
+  $("#chatbox").append(userHtml);
+  document.getElementById("chat-bar-bottom").scrollIntoView(true);
+
+  //Uncomment this if you want the bot to respond to this buttonSendText event
+  setTimeout(() => {
+    getHardResponse(sampleText);
+  }, 1000);
+}
