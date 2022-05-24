@@ -96,3 +96,10 @@ function sendButton() {
 function heartButton() {
   buttonSendText("❤️");
 }
+
+// Press enter to send a message
+$("#textInput").keypress(function (e) {
+  if (e.which == 13) {
+    getResponse();
+  }
+});
