@@ -88,3 +88,11 @@ function buttonSendText(sampleText) {
     getHardResponse(sampleText);
   }, 1000);
 }
+
+function sendButton() {
+  getResponse();
+}
+
+function heartButton() {
+  buttonSendText("❤️");
+}
