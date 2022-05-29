@@ -11,3 +11,15 @@ I actually did not do this project entirely myself, but I got help from a youtub
 * `HTML`
 * `CSS`
 * `JavaScript`
+
+## How it looks 🎥
+
+**Live:** https://bmo-chatbot.netlify.app/
+
+
+
+
+https://user-images.githubusercontent.com/71933266/170869458-b66670ac-252d-44b8-83bd-6ae9f82a62c4.mp4
+
+
+
