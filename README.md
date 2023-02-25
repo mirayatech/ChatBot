@@ -14,7 +14,6 @@ I actually did not do this project entirely myself, but I got help from a youtub
 
 ## How it looks 🎥
 
-**Live:** https://bmo-chatbot.netlify.app/
 
 
 
